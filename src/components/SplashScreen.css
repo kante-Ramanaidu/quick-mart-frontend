@@ -1,0 +1,42 @@
+.splash-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.splash-image {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 24px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.splash-subheading {
+  font-size: 14px;
+  font-weight: 600;
+  color: #555;
+}
+
+.splash-title {
+  font-size: 36px;
+  font-weight: 800;
+  color: #06b6d4;
+  margin: 12px 0;
+}
+
+.splash-text {
+  color: #666;
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
+.splash-brand {
+  font-weight: 500;
+  color: #222;
+}

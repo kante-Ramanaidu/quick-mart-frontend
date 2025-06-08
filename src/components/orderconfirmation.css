@@ -1,0 +1,83 @@
+/* src/components/orderconfirmation.css */
+
+.confirmation-container {
+  max-width: 600px;
+  margin: 4rem auto;
+  padding: 2rem 2.5rem;
+  background: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+}
+
+.confirmation-title {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: #212121;
+  border-bottom: 3px solid #4caf50;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
+
+.confirmation-message {
+  font-size: 1.1rem;
+  margin: 1.5rem 0 2.5rem;
+  color: #555;
+}
+
+.confirmation-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.btn-continue,
+.btn-track {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-continue {
+  background-color: #f7b500;
+  color: #222;
+  box-shadow: 0 4px 12px rgba(247, 181, 0, 0.4);
+}
+
+.btn-continue:hover {
+  background-color: #d69e00;
+  box-shadow: 0 6px 18px rgba(214, 158, 0, 0.6);
+}
+
+.btn-track {
+  background-color: #4caf50;
+  color: white;
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.4);
+}
+
+.btn-track:hover {
+  background-color: #388e3c;
+  box-shadow: 0 6px 18px rgba(56, 142, 60, 0.6);
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .confirmation-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .btn-continue,
+  .btn-track {
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 1.1rem;
+  }
+}

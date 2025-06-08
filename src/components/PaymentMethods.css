@@ -1,0 +1,68 @@
+.payment-page-container {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+}
+
+.payment-heading {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #2a6ebb;
+}
+
+.payment-intro {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.payment-feature {
+  margin-bottom: 2.5rem;
+}
+
+.payment-feature h2 {
+  font-size: 1.8rem;
+  color: #1e4e89;
+  margin-bottom: 0.8rem;
+  border-left: 5px solid #2a6ebb;
+  padding-left: 12px;
+}
+
+.payment-feature p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #444;
+}
+
+.payment-feature ul {
+  margin-top: 0.8rem;
+  padding-left: 1.5rem;
+  color: #444;
+}
+
+.payment-feature ul li {
+  margin-bottom: 0.6rem;
+  font-size: 1.1rem;
+  list-style-type: disc;
+}
+
+.cod-support-image {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.cod-support-image img {
+  width: 580px;  /* fixed width */
+  height: 580px; /* fixed height */
+  object-fit: contain; /* keeps image aspect ratio */
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.15));
+}
+

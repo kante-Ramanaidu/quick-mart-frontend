@@ -1,0 +1,74 @@
+/* SellerRegistration.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f9fc;
+}
+
+.seller-auth {
+  max-width: 400px;
+  width: 90%;
+  margin: 70px auto 0 auto; /* 1 cm (38px) margin from top */
+  padding: 2rem 2.5rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.seller-auth h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.seller-auth form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.seller-auth input {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1.8px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.seller-auth input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 6px rgba(59, 130, 246, 0.4);
+}
+
+.seller-auth button {
+  margin-top: 1rem;
+  padding: 0.85rem 1rem;
+  background-color: #3b82f6;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.seller-auth button:hover {
+  background-color: #2563eb;
+}
+
+.seller-auth p {
+  margin-top: 1.25rem;
+  text-align: center;
+  color: #3b82f6;
+  cursor: pointer;
+  user-select: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.seller-auth p:hover {
+  color: #1e40af;
+}

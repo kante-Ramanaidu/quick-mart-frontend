@@ -1,0 +1,75 @@
+.add-product-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.add-product-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.add-product-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-product-container label {
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #444;
+}
+
+.add-product-container input,
+.add-product-container select,
+.add-product-container textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1.5px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.add-product-container select {
+  max-height: 200px;
+  overflow-y: auto;
+  background-color: white;
+  cursor: pointer;
+}
+
+.add-product-container input:focus,
+.add-product-container select:focus,
+.add-product-container textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.add-product-container textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.add-product-container button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.add-product-container button:hover {
+  background-color: #0056b3;
+}

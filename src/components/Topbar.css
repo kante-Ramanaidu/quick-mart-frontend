@@ -1,0 +1,269 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.hamburger {
+  font-size: 22px;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.hamburger:hover {
+  color: #007bff;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+  color: #007bff;
+}
+
+.topbar-center {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+  justify-content: center;
+}
+
+.location-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #f0f0f0;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 999px;
+  font-size: 14px;
+  color: #555;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.location-btn:hover {
+  color: #007bff;
+}
+
+.location-icon {
+  color: #007bff;
+}
+
+.search-container {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 100px 10px 36px;
+  border-radius: 999px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+  font-size: 16px;
+}
+
+.search-btn {
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 6px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 999px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-btn:hover {
+  background-color: #0056b3;
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-shrink: 0;
+}
+
+.cart-btn {
+  position: relative;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  font-size: 20px;
+}
+
+.cart-btn:hover {
+  color: #007bff;
+}
+
+.cart-count {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  font-size: 11px;
+  padding: 1px 5px;
+  border-radius: 999px;
+}
+
+.add-product-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.become-seller-btn{
+  background-color: #007bff;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.become-seller-btn:hover{
+   background-color: #0056b3;
+}
+
+
+.add-product-btn:hover {
+  background-color: #0056b3;
+}
+
+
+/* hamburger */
+/* Sidebar Overlay */
+.sidebar-overlay {
+  position: fixed;
+  top: 70px; /* Push down below Topbar */
+  left: 0;
+  width: 280px;
+  height: auto; /* Instead of full height */
+  background: white;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  border-right: 1px solid #eee;
+  animation: slideIn 0.3s ease forwards;
+}
+
+/* Slide In Animation */
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.sidebar {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: #fff;
+}
+
+/* Header */
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+/* Avatar */
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+/* Menu */
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-menu li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  cursor: pointer;
+  font-size: 15px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.sidebar-menu li:hover {
+  color: #007bff;
+}
+
+/* Logout */
+.logout {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ef4444;
+  cursor: pointer;
+  padding-top: 12px;
+  border-top: 1px solid #ddd;
+}
+
+
+.logout {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ef4444;
+  cursor: pointer;
+  padding: 1rem 0;
+  border-top: 1px solid #e5e7eb;
+}

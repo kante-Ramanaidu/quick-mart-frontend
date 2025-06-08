@@ -1,0 +1,40 @@
+/* src/components/ordertracking.css */
+
+.tracking-container {
+  max-width: 600px;
+  margin: 4rem auto;
+  padding: 2rem 2.5rem;
+  background: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+}
+
+.tracking-title {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: #212121;
+  border-bottom: 3px solid #2196f3;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
+
+.tracking-loading {
+  font-size: 1.1rem;
+  color: #666;
+  margin-top: 2rem;
+}
+
+.tracking-status {
+  font-size: 1.25rem;
+  margin: 2rem 0;
+  color: #444;
+}
+
+.status-highlight {
+  font-weight: 700;
+  color: #2196f3;
+}

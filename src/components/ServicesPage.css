@@ -1,0 +1,81 @@
+.services-page {
+  min-height: 100vh;
+  background-color: #f9fafb; /* light gray */
+  padding: 24px 16px;
+  font-family: Arial, sans-serif;
+}
+
+.services-title {
+  font-size: 1.75rem; /* 28px */
+  font-weight: 600;
+  margin-bottom: 16px;
+  text-align: center;
+  color: #1f2937; /* dark gray */
+}
+
+.services-loading,
+.services-empty {
+  text-align: center;
+  color: #6b7280; /* medium gray */
+  font-size: 1rem;
+}
+
+.services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.service-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.1);
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.service-emoji {
+  font-size: 2.5rem;
+}
+
+.service-title {
+  font-weight: 500;
+  font-size: 1.125rem; /* 18px */
+  margin: 0;
+  color: #111827; /* almost black */
+}
+
+.service-description {
+  font-size: 0.875rem; /* 14px */
+  color: #4b5563; /* gray */
+  margin: 4px 0 0;
+}
+
+.service-price {
+  font-size: 0.75rem; /* 12px */
+  color: #6b7280; /* medium gray */
+  margin-top: 4px;
+}
+
+.book-button {
+  background-color: #4f46e5; /* indigo-600 */
+  color: white;
+  padding: 8px 20px;
+  border-radius: 9999px; /* full rounded */
+  font-size: 0.875rem; /* 14px */
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.book-button:hover {
+  background-color: #4338ca; /* indigo-700 */
+}
