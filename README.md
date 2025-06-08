@@ -32,7 +32,12 @@ QuickMart is a modern e-commerce web application that allows users to buy produc
 - **Styling:** CSS / TailwindCSS (if used)
 
 
-https://github.com/user-attachments/assets/d0301fd3-b353-4d7c-8f1c-676276437606(screen recorder)
+screen recording:-
+
+https://github.com/user-attachments/assets/d0301fd3-b353-4d7c-8f1c-676276437606
+
+
+
 
 
 ![Screenshot 2025-06-08 113440](https://github.com/user-attachments/assets/b411d6a5-7e71-4d6f-bc06-6fa80fbf291f)
