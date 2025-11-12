@@ -32,7 +32,9 @@ QuickMart is a modern e-commerce web application that allows users to buy produc
 - **Styling:** CSS / TailwindCSS (if used)
 
 git rep(frontend) -https://github.com/kante-Ramanaidu/quick-mart-frontend
-git rep(backend) -https://github.com/kante-Ramanaidu/mood-journal-backend
+
+
+git rep(backend) - https://github.com/kante-Ramanaidu/quick-mart-backend
 
 
 
